@@ -66,8 +66,9 @@ double optimistic_median_analysis(const vector<Student_info>& s) {
 	return median(grades);
 }
 void write_analysis(
-	ostream& out, string& name,
-	double analysis(vector<Student_info>&),
+	ostream& out, 
+	const string& name,
+	double analysis(const vector<Student_info>&),
 	const vector<Student_info>& did, // did
 	const vector<Student_info>& didnt // didnt
 ) {

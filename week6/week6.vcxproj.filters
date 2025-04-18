@@ -27,9 +27,36 @@
     <ClCompile Include="ｕｒｌｓ.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Student_info.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="analysis.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="median.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="grade.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main_analysis.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\5-library-algorithms-HyangSong\week 5\split.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="analysis.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Student_info.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="grade.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="median.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

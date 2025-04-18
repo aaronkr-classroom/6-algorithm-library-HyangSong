@@ -130,16 +130,29 @@
     <ClCompile Include="..\..\5-library-algorithms-HyangSong\week 5\split.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="analysis.cpp" />
+    <ClCompile Include="grade.cpp" />
+    <ClCompile Include="main_analysis.cpp" />
+    <ClCompile Include="median.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="split_iter.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Student_info.cpp" />
     <ClCompile Include="ｐａｌｉｄｒｏｍ.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="ｕｒｌｓ.cpp" />
+    <ClCompile Include="ｕｒｌｓ.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\5-library-algorithms-HyangSong\week 5\split.h" />
+    <ClInclude Include="grade.h" />
+    <ClInclude Include="median.h" />
+    <ClInclude Include="Student_info.h" />
+    <ClInclude Include="analysis.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
